@@ -1,3 +1,5 @@
 # avaamo_exercise
 
-node app.js
+To run:
+- npm install
+- node app.js
