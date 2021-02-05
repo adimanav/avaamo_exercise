@@ -36,7 +36,7 @@ async function getInfo(topItems){
     let result = [];
     for (let item of topItems) {
         const apiResult = await callYandex(item.word);
-        result.push({word: item.word, ocurrs: item.numOccurs, syn: apiResult["def"].length ? apiResult["def"][0]["syn"]: [], pos: apiResult["def"].length ? apiResult["def"][0]["pos"]: []})
+        result.push({word: item.word, occurs: item.numOccurs, syn: apiResult["def"].length ? apiResult["def"][0]["syn"]: [], pos: apiResult["def"].length ? apiResult["def"][0]["pos"]: []})
     }
     return result;
 }

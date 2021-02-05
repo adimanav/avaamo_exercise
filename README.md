@@ -2,5 +2,5 @@
 
 To run:
 - Install node
-- Execute "npm install"
-- Execute "node app.js"
+- Execute ```npm install```
+- Execute ```node app.js```
